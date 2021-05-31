@@ -1,9 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .toplinks{
     color: black;
+    font-family: 'Open Sans', serif;
     font-size: 15px;
     text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .toplinks:hover{
     text-decoration: underline;
+}
+#signin{
+    background-color:blue;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+#top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftpanel{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#rightpanel{
+    padding: 20px;
+}
+
+#imageslink{
+    padding-right: 10px;
+}
+
+#middle{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+#boxes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#searchbar{
+    width: 20vw;
+    left: 50%;
+    -ms-transform: translateX(-15%);
+    transform: translateX(-15%);
+    border-radius: 20px;
+    padding-top: 20px;
 }
